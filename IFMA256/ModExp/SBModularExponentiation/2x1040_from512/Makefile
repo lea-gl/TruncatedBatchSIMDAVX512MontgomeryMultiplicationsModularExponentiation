@@ -1,0 +1,42 @@
+MACROS= -funroll-all-loops -g -march=native -lcrypto -lgmp -lm
+
+
+ifdef TEST
+	OPTIONS+= -DWIN_WIDTH=$(WIN_WIDTH) -DTEST
+endif
+
+#OPTIONS+=$(MACROS)
+CC= gcc
+
+LIBS= -L/home/anonymous/openssl3/lib64/ 
+INCLUDE=-I/home/anonymous/openssl3/include/ 
+
+
+#OPTIONS=$(INCLUDE)
+#OPTIONS+=$(LIBS)
+
+OPTIONS+=$(MACROS)
+
+main : main.o fonctions.o
+	$(CC) -o main main.o fonctions.o $(OPTIONS)
+
+main_rdpmc : main_rdpmc.o fonctions.o
+	$(CC) -o main_rdpmc main_rdpmc.o fonctions.o $(OPTIONS)
+
+fonctions.o : fonctions.c fonctions.h
+	$(CC) -c -O3 fonctions.c $(OPTIONS)
+
+main.o : fonctions.o main.c
+	$(CC) -c main.c $(OPTIONS)
+
+	
+		
+all : main
+
+
+clean :
+	rm *.o -fv *~
+
+cleanall : clean
+	rm main -f
+

@@ -1,0 +1,244 @@
+
+********************************
+
+		W    W __  111
+		 W  W  __  111
+		  WW       111
+
+********************************
+
+
+Victory !!!!!!!!!!!!!!!!!!!
+
+	  /***************************************************/
+	 /   Test sur 1000 jeux de données : batch mod exp   /
+	/***************************************************/
+
+Victory !!!!!!!!!!!!!!!!!!!
+
+	  /***************************/
+	 / Chronométrage !!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, //block_mont_mul256_4_1040
+-----------------------------------------------------------
+timer gmp mpn_mont_mul_red_1 (x4)    : 5014
+timer BN_mod_mul_montgomery (x4)     : 4242
+timer //block_mont_mul256_4_1040       : 3
+timer gmp mpn_sec_powm (x4)          : 5607711
+timer BN_mod_exp_mont_consttime (x4) : 4133175
+timer modExp_4_256                   : 2795801
+
+
+	  /***************************/
+	 / Instructions !!!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, //block_mont_mul256_4_1040
+-----------------------------------------------------------
+gmp mpn_mont_mul_red_1 (x4)      : 19081
+gmp mpn_mont_mul_red_n (x4)      : 21282
+gmp mpn_sec_powm (x4)            : 21335754
+BN_mod_mul (x4)                  : 51160
+BN_ mod_exp_mont_consttime(x4)   : 11848242
+modExp_4_256                     : 7113955
+
+Au revoir et merci !
+
+********************************
+
+		W    W __  222
+		 W  W  __  222
+		  WW       222
+
+********************************
+
+
+Victory !!!!!!!!!!!!!!!!!!!
+
+	  /***************************************************/
+	 /   Test sur 1000 jeux de données : batch mod exp   /
+	/***************************************************/
+
+Victory !!!!!!!!!!!!!!!!!!!
+
+	  /***************************/
+	 / Chronométrage !!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, //block_mont_mul256_4_1040
+-----------------------------------------------------------
+timer gmp mpn_mont_mul_red_1 (x4)    : 5012
+timer BN_mod_mul_montgomery (x4)     : 3983
+timer //block_mont_mul256_4_1040       : 3
+timer gmp mpn_sec_powm (x4)          : 5608472
+timer BN_mod_exp_mont_consttime (x4) : 4135481
+timer modExp_4_256                   : 1976915
+
+
+	  /***************************/
+	 / Instructions !!!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, //block_mont_mul256_4_1040
+-----------------------------------------------------------
+gmp mpn_mont_mul_red_1 (x4)      : 19080
+gmp mpn_mont_mul_red_n (x4)      : 21277
+gmp mpn_sec_powm (x4)            : 21335754
+BN_mod_mul (x4)                  : 51158
+BN_ mod_exp_mont_consttime(x4)   : 11848174
+modExp_4_256                     : 4954969
+
+Au revoir et merci !
+
+
+********************************
+
+		W    W __  333
+		 W  W  __  333
+		  WW       333
+
+********************************
+
+
+Victory !!!!!!!!!!!!!!!!!!!
+
+	  /***************************************************/
+	 /   Test sur 1000 jeux de données : batch mod exp   /
+	/***************************************************/
+
+Victory !!!!!!!!!!!!!!!!!!!
+
+	  /***************************/
+	 / Chronométrage !!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, //block_mont_mul256_4_1040
+-----------------------------------------------------------
+timer gmp mpn_mont_mul_red_1 (x4)    : 5029
+timer BN_mod_mul_montgomery (x4)     : 3995
+timer //block_mont_mul256_4_1040       : 3
+timer gmp mpn_sec_powm (x4)          : 5625552
+timer BN_mod_exp_mont_consttime (x4) : 4133086
+timer modExp_4_256                   : 1771155
+
+
+	  /***************************/
+	 / Instructions !!!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, //block_mont_mul256_4_1040
+-----------------------------------------------------------
+gmp mpn_mont_mul_red_1 (x4)      : 19081
+gmp mpn_mont_mul_red_n (x4)      : 21294
+gmp mpn_sec_powm (x4)            : 21335725
+BN_mod_mul (x4)                  : 51159
+BN_ mod_exp_mont_consttime(x4)   : 11848177
+modExp_4_256                     : 4412399
+
+Au revoir et merci !
+
+
+********************************
+
+		W    W __  444
+		 W  W  __  444
+		  WW       444
+
+********************************
+
+
+Victory !!!!!!!!!!!!!!!!!!!
+
+	  /***************************************************/
+	 /   Test sur 1000 jeux de données : batch mod exp   /
+	/***************************************************/
+
+Victory !!!!!!!!!!!!!!!!!!!
+
+	  /***************************/
+	 / Chronométrage !!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, //block_mont_mul256_4_1040
+-----------------------------------------------------------
+timer gmp mpn_mont_mul_red_1 (x4)    : 5017
+timer BN_mod_mul_montgomery (x4)     : 4242
+timer //block_mont_mul256_4_1040       : 3
+timer gmp mpn_sec_powm (x4)          : 5607572
+timer BN_mod_exp_mont_consttime (x4) : 4133972
+timer modExp_4_256                   : 1661839
+
+
+	  /***************************/
+	 / Instructions !!!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, //block_mont_mul256_4_1040
+-----------------------------------------------------------
+gmp mpn_mont_mul_red_1 (x4)      : 19081
+gmp mpn_mont_mul_red_n (x4)      : 21278
+gmp mpn_sec_powm (x4)            : 21335756
+BN_mod_mul (x4)                  : 51157
+BN_ mod_exp_mont_consttime(x4)   : 11848234
+modExp_4_256                     : 4215747
+
+Au revoir et merci !
+
+
+********************************
+
+		W    W __  555
+		 W  W  __  555
+		  WW       555
+
+********************************
+
+
+Victory !!!!!!!!!!!!!!!!!!!
+
+	  /***************************************************/
+	 /   Test sur 1000 jeux de données : batch mod exp   /
+	/***************************************************/
+
+Victory !!!!!!!!!!!!!!!!!!!
+
+	  /***************************/
+	 / Chronométrage !!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, //block_mont_mul256_4_1040
+-----------------------------------------------------------
+timer gmp mpn_mont_mul_red_1 (x4)    : 5093
+timer BN_mod_mul_montgomery (x4)     : 4076
+timer //block_mont_mul256_4_1040       : 3
+timer gmp mpn_sec_powm (x4)          : 5606975
+timer BN_mod_exp_mont_consttime (x4) : 4132913
+timer modExp_4_256                   : 1673208
+
+
+	  /***************************/
+	 / Instructions !!!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, //block_mont_mul256_4_1040
+-----------------------------------------------------------
+gmp mpn_mont_mul_red_1 (x4)      : 19069
+gmp mpn_mont_mul_red_n (x4)      : 21275
+gmp mpn_sec_powm (x4)            : 21335754
+BN_mod_mul (x4)                  : 51158
+BN_ mod_exp_mont_consttime(x4)   : 11848229
+modExp_4_256                     : 4259461
+
+Au revoir et merci !
+
