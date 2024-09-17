@@ -1,0 +1,745 @@
+./script.sh 104
+104
+#include "sb512_104.c"
+make -B SIZE=104 FILE=1
+make[1] : on entre dans le répertoire « /home/ANONYMOUS/research/VectorizedMultiprecision/ifma52_8mult_092023/Multiplications/SBClassicMULSQUARING06042023 »
+./script.sh 104
+104
+#include "sb512_104.c"
+gcc -c fonctions.c -O3 -g -march=native -lgmp -lcrypto -lm  -DSIZE=104
+gcc -c main.c -O3 -g -march=native -lgmp -lcrypto -lm  -DSIZE=104
+gcc -o main main.o fonctions.o -O3 -g -march=native -lgmp -lcrypto -lm  -DSIZE=104
+make[1] : on quitte le répertoire « /home/ANONYMOUS/research/VectorizedMultiprecision/ifma52_8mult_092023/Multiplications/SBClassicMULSQUARING06042023 »
+./main
+105 2 2
+
+UPB  : 0x100000000000000000000000000
+
+
+	  /*******************************/
+	 /   Test on 1 dataset   /
+	/*******************************/
+
+A  : 0xCF1602A9967EA51E5EE3DDDBD4
+
+
+B  : 0xFDF8E259C0F29B007764B1F682
+
+
+C  : 0xCD72150E371A59E0825FF3CE5FC2356D2E64792400F6B57B59A8
+
+
+C  : 0xCD72150E371A59E0825FF3CE5FC2356D2E64792400F6B57B59A8
+
+
+res_gmp := F3CE5FC2356D2E64 792400F6B57B59A8 
+pa      := 000000CF1602A996 7EA51E5EE3DDDBD4 
+pb      := 000000FDF8E259C0 F29B007764B1F682 
+pa_x    := 0001E2C05532CFD4 00051E5EE3DDDBD4 
+pb_x    := 0004E0794D803BB2 0002C7DA08000003 
+res     := 0000000000000000 000000000FDF8E25 
+res_gmp := F3CE5FC2356D2E64 792400F6B57B59A8 
+
+Multiplication
+a64[i]      := 000000B705063F35 00757FC64CD963D9 
+a64[i]      := 00000016BCFA7090 0C2710B7B6C66493 
+a64[i]      := 00000078F9146D91 9B43E3A36D353B44 
+a64[i]      := 000000B66D55E562 FFA6B62C6AE96042 
+a64[i]      := 000000129937C4DA 3B1DED4D3F86D4C0 
+a64[i]      := 0000004FA484847E 8C6448D310C37E9E 
+a64[i]      := 0000002563D5BE2E 720EDFB4DCF30C9F 
+a64[i]      := 000000224B5766C2 8444A97A8ED22F97 
+c64[i]      := 000000B705063F35 00757FC64CD963D9 
+c64[i]      := 00000016BCFA7090 0C2710B7B6C66493 
+c64[i]      := 00000078F9146D91 9B43E3A36D353B44 
+c64[i]      := 000000B66D55E562 FFA6B62C6AE96042 
+c64[i]      := 000000129937C4DA 3B1DED4D3F86D4C0 
+c64[i]      := 0000004FA484847E 8C6448D310C37E9E 
+c64[i]      := 0000002563D5BE2E 720EDFB4DCF30C9F 
+c64[i]      := 000000224B5766C2 8444A97A8ED22F97 
+res512_lo[0] := 0006EB38561599E9 0007597C54712A1F 
+res512_lo[1] := 0004D51BB5F0B9C4 000F09C9859FD689 
+res512_lo[2] := 0005101FB4B3FEBC 00003B71BC087B7C 
+res512_lo[3] := 000A9A76D32DA252 000E00A3E2371234 
+res512_lo[4] := 000D412C56ABF4E6 000F72D88AF36100 
+res512_lo[5] := 0004913F80E68773 0000CA9864DEBA1A 
+res512_lo[6] := 0004FB561CDE0F7A 000855A9B74680F4 
+res512_lo[7] := 00043A629CEA9F7C 0009965EA6824F0F 
+res512_hi[0] := 00063410B18037DA 000CB9C08D633259 
+res512_hi[1] := 000110F1CB429911 00018BE600C2AF5E 
+res512_hi[2] := 000431C6B4FA6C47 0006DC26A207B6C7 
+res512_hi[3] := 0000B8C50D313B33 000A0B17A541D2FB 
+res512_hi[4] := 0000816F1746DBAC 000BED67F223774F 
+res512_hi[5] := 00009E918A4FB074 00096644194E51BB 
+res512_hi[6] := 00020A82FAD31C7B 0007C382C26FF77A 
+res512_hi[7] := 0001AF4CFAC11FE2 00041A24F055DF36 
+res_gmp      := 0000000000006341 0B18037DACB9C08D 6332596EB3856159 9E97597C54712A1F 
+res64[i]     := 0000000000006341 0B18037DACB9C08D 6332596EB3856159 9E97597C54712A1F 
+res_gmp      := 000000000000110F 1CB42991118BE600 C2AF5E4D51BB5F0B 9C4F09C9859FD689 
+res64[i]     := 000000000000110F 1CB42991118BE600 C2AF5E4D51BB5F0B 9C4F09C9859FD689 
+res_gmp      := 000000000000431C 6B4FA6C476DC26A2 07B6C75101FB4B3F EBC03B71BC087B7C 
+res64[i]     := 000000000000431C 6B4FA6C476DC26A2 07B6C75101FB4B3F EBC03B71BC087B7C 
+res_gmp      := 0000000000000B8C 50D313B33A0B17A5 41D2FBA9A76D32DA 252E00A3E2371234 
+res64[i]     := 0000000000000B8C 50D313B33A0B17A5 41D2FBA9A76D32DA 252E00A3E2371234 
+res_gmp      := 0000000000000816 F1746DBACBED67F2 23774FD412C56ABF 4E6F72D88AF36100 
+res64[i]     := 0000000000000816 F1746DBACBED67F2 23774FD412C56ABF 4E6F72D88AF36100 
+res_gmp      := 00000000000009E9 18A4FB0749664419 4E51BB4913F80E68 7730CA9864DEBA1A 
+res64[i]     := 00000000000009E9 18A4FB0749664419 4E51BB4913F80E68 7730CA9864DEBA1A 
+res_gmp      := 00000000000020A8 2FAD31C7B7C382C2 6FF77A4FB561CDE0 F7A855A9B74680F4 
+res64[i]     := 00000000000020A8 2FAD31C7B7C382C2 6FF77A4FB561CDE0 F7A855A9B74680F4 
+res_gmp      := 0000000000001AF4 CFAC11FE241A24F0 55DF3643A629CEA9 F7C9965EA6824F0F 
+res64[i]     := 0000000000001AF4 CFAC11FE241A24F0 55DF3643A629CEA9 F7C9965EA6824F0F 
+Victory !!!!!!!!!!!!!!!!!!!
+
+
+Squaring
+res_gmp      := 00000000000082D8 2F079C65C0186B34 A0A39032045CBE69 ECC38D8F44D38DF1 
+res64[i]     := 00000000000082D8 2F079C65C0186B34 A0A39032045CBE69 ECC38D8F44D38DF1 
+res_gmp      := 0000000000000205 068C2315B366581D C084E69AE08189F0 0B7EDAEABEE72C69 
+res64[i]     := 0000000000000205 068C2315B366581D C084E69AE08189F0 0B7EDAEABEE72C69 
+res_gmp      := 000000000000392A 757F77481D550DAE EECE7F256D99E6AA 051270217FE06A10 
+res64[i]     := 000000000000392A 757F77481D550DAE EECE7F256D99E6AA 051270217FE06A10 
+res_gmp      := 00000000000081FF A4D46AEBF00706A7 CD3B158EC0F28AAD 1355072704559104 
+res64[i]     := 00000000000081FF A4D46AEBF00706A7 CD3B158EC0F28AAD 1355072704559104 
+res_gmp      := 0000000000000159 E78B642358036FED CC13A0F4CCA9008B A04B1F39E9CE9000 
+res64[i]     := 0000000000000159 E78B642358036FED CC13A0F4CCA9008B A04B1F39E9CE9000 
+res_gmp      := 00000000000018C6 F383D475B0D8F653 CA9B1956F1E5E632 56049D91E353E984 
+res64[i]     := 00000000000018C6 F383D475B0D8F653 CA9B1956F1E5E632 56049D91E353E984 
+res_gmp      := 0000000000000576 02B7FCFAEB16F1C9 48576B3E78B7C7AD E1DD660A3E794AC1 
+res64[i]     := 0000000000000576 02B7FCFAEB16F1C9 48576B3E78B7C7AD E1DD660A3E794AC1 
+res_gmp      := 0000000000000498 19639FB81D32BBBA 6446479BA3B620D6 F3109349A094CB11 
+res64[i]     := 0000000000000498 19639FB81D32BBBA 6446479BA3B620D6 F3109349A094CB11 
+Victory !!!!!!!!!!!!!!!!!!!
+
+	  /***********************************/
+	 /   Test on 1000 datasets   /
+	/***********************************/
+
+
+Multiplication
+Victory !!!!!!!!!!!!!!!!!!!
+
+
+Squaring
+Victory !!!!!!!!!!!!!!!!!!!
+
+	  /***************************/
+	 / Timing !!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, mul512_8_SIZE and square512_8_SIZE
+-----------------------------------------------------
+timer gmp (x8)             : 259
+timer gmp mpn_mul_n (x8)   : 196
+timer gmp mpn_sqr (x8)     : 157
+timer mul512_8_SIZE        : 13
+timer square512_8_SIZE     : 13
+timer BN_mod_mul_mont (x8) : 993
+
+autres fonction p25519 :
+------------------------
+timer fexpand_8_512_52       : 20
+timer fcontract_8_512_52_res : 80
+
+
+	  /***************************/
+	 / Instructions !!!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, amns_origin vs  amns
+-------------------------
+gmp (x8)             : 884
+gmp mpn_mul_n (x8)   : 699
+gmp mpn_sqr (x8)     : 458
+mul512_8_SIZE        : 19
+square512_8_SIZE     : 37
+BN_mod_mul_mont (x8) : 4239
+
+autres fonction p25519 :
+------------------------
+fexpand_8_512_52       : 70
+fcontract_8_512_52_res : 132
+
+Au revoir and merci !
+./script.sh 156
+156
+#include "sb512_156.c"
+make -B BENCHMARK=1 SIZE=156 FILE=1
+make[1] : on entre dans le répertoire « /home/ANONYMOUS/research/VectorizedMultiprecision/ifma52_8mult_092023/Multiplications/SBClassicMULSQUARING06042023 »
+./script.sh 156
+156
+#include "sb512_156.c"
+gcc -c fonctions.c -O3 -g -march=native -lgmp -lcrypto -lm  -DBENCHMARK -DSIZE=156
+gcc -c main.c -O3 -g -march=native -lgmp -lcrypto -lm  -DBENCHMARK -DSIZE=156
+gcc -o main main.o fonctions.o -O3 -g -march=native -lgmp -lcrypto -lm  -DBENCHMARK -DSIZE=156
+make[1] : on quitte le répertoire « /home/ANONYMOUS/research/VectorizedMultiprecision/ifma52_8mult_092023/Multiplications/SBClassicMULSQUARING06042023 »
+./main
+157 3 3
+
+UPB  : 0x1000000000000000000000000000000000000000
+
+
+	  /***************************/
+	 / Timing !!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, mul512_8_SIZE and square512_8_SIZE
+-----------------------------------------------------
+timer gmp (x8)             : 493
+timer gmp mpn_mul_n (x8)   : 351
+timer gmp mpn_sqr (x8)     : 203
+timer mul512_8_SIZE        : 25
+timer square512_8_SIZE     : 23
+timer BN_mod_mul_mont (x8) : 1189
+
+autres fonction p25519 :
+------------------------
+timer fexpand_8_512_52       : 31
+timer fcontract_8_512_52_res : 92
+
+
+	  /***************************/
+	 / Instructions !!!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, amns_origin vs  amns
+-------------------------
+gmp (x8)             : 1822
+gmp mpn_mul_n (x8)   : 960
+gmp mpn_sqr (x8)     : 583
+mul512_8_SIZE        : 49
+square512_8_SIZE     : 63
+BN_mod_mul_mont (x8) : 5085
+
+autres fonction p25519 :
+------------------------
+fexpand_8_512_52       : 117
+fcontract_8_512_52_res : 193
+
+Au revoir and merci !
+./script.sh 208
+208
+#include "sb512_208.c"
+make -B BENCHMARK=1 SIZE=208 FILE=1
+make[1] : on entre dans le répertoire « /home/ANONYMOUS/research/VectorizedMultiprecision/ifma52_8mult_092023/Multiplications/SBClassicMULSQUARING06042023 »
+./script.sh 208
+208
+#include "sb512_208.c"
+gcc -c fonctions.c -O3 -g -march=native -lgmp -lcrypto -lm  -DBENCHMARK -DSIZE=208
+gcc -c main.c -O3 -g -march=native -lgmp -lcrypto -lm  -DBENCHMARK -DSIZE=208
+gcc -o main main.o fonctions.o -O3 -g -march=native -lgmp -lcrypto -lm  -DBENCHMARK -DSIZE=208
+make[1] : on quitte le répertoire « /home/ANONYMOUS/research/VectorizedMultiprecision/ifma52_8mult_092023/Multiplications/SBClassicMULSQUARING06042023 »
+./main
+209 4 4
+
+UPB  : 0x10000000000000000000000000000000000000000000000000000
+
+
+	  /***************************/
+	 / Timing !!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, mul512_8_SIZE and square512_8_SIZE
+-----------------------------------------------------
+timer gmp (x8)             : 580
+timer gmp mpn_mul_n (x8)   : 425
+timer gmp mpn_sqr (x8)     : 303
+timer mul512_8_SIZE        : 41
+timer square512_8_SIZE     : 36
+timer BN_mod_mul_mont (x8) : 1608
+
+autres fonction p25519 :
+------------------------
+timer fexpand_8_512_52       : 46
+timer fcontract_8_512_52_res : 130
+
+
+	  /***************************/
+	 / Instructions !!!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, amns_origin vs  amns
+-------------------------
+gmp (x8)             : 2096
+gmp mpn_mul_n (x8)   : 1279
+gmp mpn_sqr (x8)     : 1150
+mul512_8_SIZE        : 77
+square512_8_SIZE     : 99
+BN_mod_mul_mont (x8) : 6253
+
+autres fonction p25519 :
+------------------------
+fexpand_8_512_52       : 178
+fcontract_8_512_52_res : 284
+
+Au revoir and merci !
+./script.sh 260
+260
+#include "sb512_260.c"
+make -B BENCHMARK=1 SIZE=260 FILE=1
+make[1] : on entre dans le répertoire « /home/ANONYMOUS/research/VectorizedMultiprecision/ifma52_8mult_092023/Multiplications/SBClassicMULSQUARING06042023 »
+./script.sh 260
+260
+#include "sb512_260.c"
+gcc -c fonctions.c -O3 -g -march=native -lgmp -lcrypto -lm  -DBENCHMARK -DSIZE=260
+gcc -c main.c -O3 -g -march=native -lgmp -lcrypto -lm  -DBENCHMARK -DSIZE=260
+gcc -o main main.o fonctions.o -O3 -g -march=native -lgmp -lcrypto -lm  -DBENCHMARK -DSIZE=260
+make[1] : on quitte le répertoire « /home/ANONYMOUS/research/VectorizedMultiprecision/ifma52_8mult_092023/Multiplications/SBClassicMULSQUARING06042023 »
+./main
+261 5 5
+
+UPB  : 0x100000000000000000000000000000000000000000000000000000000000000000
+
+
+	  /***************************/
+	 / Timing !!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, mul512_8_SIZE and square512_8_SIZE
+-----------------------------------------------------
+timer gmp (x8)             : 749
+timer gmp mpn_mul_n (x8)   : 563
+timer gmp mpn_sqr (x8)     : 376
+timer mul512_8_SIZE        : 61
+timer square512_8_SIZE     : 49
+timer BN_mod_mul_mont (x8) : 1925
+
+autres fonction p25519 :
+------------------------
+timer fexpand_8_512_52       : 56
+timer fcontract_8_512_52_res : 169
+
+
+	  /***************************/
+	 / Instructions !!!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, amns_origin vs  amns
+-------------------------
+gmp (x8)             : 2722
+gmp mpn_mul_n (x8)   : 2032
+gmp mpn_sqr (x8)     : 1446
+mul512_8_SIZE        : 113
+square512_8_SIZE     : 136
+BN_mod_mul_mont (x8) : 7479
+
+autres fonction p25519 :
+------------------------
+fexpand_8_512_52       : 207
+fcontract_8_512_52_res : 359
+
+Au revoir and merci !
+./script.sh 520
+520
+#include "sb512_520.c"
+make -B BENCHMARK=1 SIZE=520 FILE=1
+make[1] : on entre dans le répertoire « /home/ANONYMOUS/research/VectorizedMultiprecision/ifma52_8mult_092023/Multiplications/SBClassicMULSQUARING06042023 »
+./script.sh 520
+520
+#include "sb512_520.c"
+gcc -c fonctions.c -O3 -g -march=native -lgmp -lcrypto -lm  -DBENCHMARK -DSIZE=520
+gcc -c main.c -O3 -g -march=native -lgmp -lcrypto -lm  -DBENCHMARK -DSIZE=520
+gcc -o main main.o fonctions.o -O3 -g -march=native -lgmp -lcrypto -lm  -DBENCHMARK -DSIZE=520
+make[1] : on quitte le répertoire « /home/ANONYMOUS/research/VectorizedMultiprecision/ifma52_8mult_092023/Multiplications/SBClassicMULSQUARING06042023 »
+./main
+521 10 9
+
+UPB  : 0x10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+
+
+	  /***************************/
+	 / Timing !!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, mul512_8_SIZE and square512_8_SIZE
+-----------------------------------------------------
+timer gmp (x8)             : 1702
+timer gmp mpn_mul_n (x8)   : 1521
+timer gmp mpn_sqr (x8)     : 967
+timer mul512_8_SIZE        : 223
+timer square512_8_SIZE     : 149
+timer BN_mod_mul_mont (x8) : 3898
+
+autres fonction p25519 :
+------------------------
+timer fexpand_8_512_52       : 134
+timer fcontract_8_512_52_res : 847
+
+
+	  /***************************/
+	 / Instructions !!!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, amns_origin vs  amns
+-------------------------
+gmp (x8)             : 6167
+gmp mpn_mul_n (x8)   : 5422
+gmp mpn_sqr (x8)     : 3533
+mul512_8_SIZE        : 324
+square512_8_SIZE     : 387
+BN_mod_mul_mont (x8) : 13651
+
+autres fonction p25519 :
+------------------------
+fexpand_8_512_52       : 535
+fcontract_8_512_52_res : 3296
+
+Au revoir and merci !
+./script.sh 1040
+1040
+#include "sb512_1040.c"
+make -B BENCHMARK=1 SIZE=1040 FILE=1
+make[1] : on entre dans le répertoire « /home/ANONYMOUS/research/VectorizedMultiprecision/ifma52_8mult_092023/Multiplications/SBClassicMULSQUARING06042023 »
+./script.sh 1040
+1040
+#include "sb512_1040.c"
+gcc -c fonctions.c -O3 -g -march=native -lgmp -lcrypto -lm  -DBENCHMARK -DSIZE=1040
+gcc -c main.c -O3 -g -march=native -lgmp -lcrypto -lm  -DBENCHMARK -DSIZE=1040
+gcc -o main main.o fonctions.o -O3 -g -march=native -lgmp -lcrypto -lm  -DBENCHMARK -DSIZE=1040
+make[1] : on quitte le répertoire « /home/ANONYMOUS/research/VectorizedMultiprecision/ifma52_8mult_092023/Multiplications/SBClassicMULSQUARING06042023 »
+./main
+1041 20 17
+
+UPB  : 0x100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+
+
+	  /***************************/
+	 / Timing !!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, mul512_8_SIZE and square512_8_SIZE
+-----------------------------------------------------
+timer gmp (x8)             : 5388
+timer gmp mpn_mul_n (x8)   : 5197
+timer gmp mpn_sqr (x8)     : 2994
+timer mul512_8_SIZE        : 884
+timer square512_8_SIZE     : 501
+timer BN_mod_mul_mont (x8) : 11117
+
+autres fonction p25519 :
+------------------------
+timer fexpand_8_512_52       : 1165
+timer fcontract_8_512_52_res : 1726
+
+
+	  /***************************/
+	 / Instructions !!!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, amns_origin vs  amns
+-------------------------
+gmp (x8)             : 18449
+gmp mpn_mul_n (x8)   : 17709
+gmp mpn_sqr (x8)     : 10475
+mul512_8_SIZE        : 1640
+square512_8_SIZE     : 1210
+BN_mod_mul_mont (x8) : 32567
+
+autres fonction p25519 :
+------------------------
+fexpand_8_512_52       : 4893
+fcontract_8_512_52_res : 6436
+
+Au revoir and merci !
+./script.sh 2080
+2080
+#include "sb512_2080.c"
+make -B BENCHMARK=1 SIZE=2080 FILE=1
+make[1] : on entre dans le répertoire « /home/ANONYMOUS/research/VectorizedMultiprecision/ifma52_8mult_092023/Multiplications/SBClassicMULSQUARING06042023 »
+./script.sh 2080
+2080
+#include "sb512_2080.c"
+gcc -c fonctions.c -O3 -g -march=native -lgmp -lcrypto -lm  -DBENCHMARK -DSIZE=2080
+gcc -c main.c -O3 -g -march=native -lgmp -lcrypto -lm  -DBENCHMARK -DSIZE=2080
+gcc -o main main.o fonctions.o -O3 -g -march=native -lgmp -lcrypto -lm  -DBENCHMARK -DSIZE=2080
+make[1] : on quitte le répertoire « /home/ANONYMOUS/research/VectorizedMultiprecision/ifma52_8mult_092023/Multiplications/SBClassicMULSQUARING06042023 »
+./main
+2081 40 33
+
+UPB  : 0x10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+
+
+	  /***************************/
+	 / Timing !!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, mul512_8_SIZE and square512_8_SIZE
+-----------------------------------------------------
+timer gmp (x8)             : 16511
+timer gmp mpn_mul_n (x8)   : 16374
+timer gmp mpn_sqr (x8)     : 9871
+timer mul512_8_SIZE        : 4076
+timer square512_8_SIZE     : 1908
+timer BN_mod_mul_mont (x8) : 43654
+
+autres fonction p25519 :
+------------------------
+timer fexpand_8_512_52       : 2411
+timer fcontract_8_512_52_res : 3274
+
+
+	  /***************************/
+	 / Instructions !!!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, amns_origin vs  amns
+-------------------------
+gmp (x8)             : 57956
+gmp mpn_mul_n (x8)   : 56946
+gmp mpn_sqr (x8)     : 35419
+mul512_8_SIZE        : 7723
+square512_8_SIZE     : 4294
+BN_mod_mul_mont (x8) : 96387
+
+autres fonction p25519 :
+------------------------
+fexpand_8_512_52       : 9954
+fcontract_8_512_52_res : 12086
+
+Au revoir and merci !
+./script.sh 4108
+4108
+#include "sb512_4108.c"
+make -B BENCHMARK=1 SIZE=4108 FILE=1
+make[1] : on entre dans le répertoire « /home/ANONYMOUS/research/VectorizedMultiprecision/ifma52_8mult_092023/Multiplications/SBClassicMULSQUARING06042023 »
+./script.sh 4108
+4108
+#include "sb512_4108.c"
+gcc -c fonctions.c -O3 -g -march=native -lgmp -lcrypto -lm  -DBENCHMARK -DSIZE=4108
+gcc -c main.c -O3 -g -march=native -lgmp -lcrypto -lm  -DBENCHMARK -DSIZE=4108
+gcc -o main main.o fonctions.o -O3 -g -march=native -lgmp -lcrypto -lm  -DBENCHMARK -DSIZE=4108
+make[1] : on quitte le répertoire « /home/ANONYMOUS/research/VectorizedMultiprecision/ifma52_8mult_092023/Multiplications/SBClassicMULSQUARING06042023 »
+./main
+4109 79 65
+
+UPB  : 0x10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+
+
+	  /***************************/
+	 / Timing !!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, mul512_8_SIZE and square512_8_SIZE
+-----------------------------------------------------
+timer gmp (x8)             : 50514
+timer gmp mpn_mul_n (x8)   : 50248
+timer gmp mpn_sqr (x8)     : 31322
+timer mul512_8_SIZE        : 16326
+timer square512_8_SIZE     : 8868
+timer BN_mod_mul_mont (x8) : 173005
+
+autres fonction p25519 :
+------------------------
+timer fexpand_8_512_52       : 4790
+timer fcontract_8_512_52_res : 6505
+
+
+	  /***************************/
+	 / Instructions !!!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, amns_origin vs  amns
+-------------------------
+gmp (x8)             : 180442
+gmp mpn_mul_n (x8)   : 179443
+gmp mpn_sqr (x8)     : 112777
+mul512_8_SIZE        : 29858
+square512_8_SIZE     : 17299
+BN_mod_mul_mont (x8) : 328485
+
+autres fonction p25519 :
+------------------------
+fexpand_8_512_52       : 19810
+fcontract_8_512_52_res : 23508
+
+Au revoir and merci !
+./script.sh 4160
+4160
+#include "sb512_4160.c"
+make -B BENCHMARK=1 SIZE=4160 FILE=1
+make[1] : on entre dans le répertoire « /home/ANONYMOUS/research/VectorizedMultiprecision/ifma52_8mult_092023/Multiplications/SBClassicMULSQUARING06042023 »
+./script.sh 4160
+4160
+#include "sb512_4160.c"
+gcc -c fonctions.c -O3 -g -march=native -lgmp -lcrypto -lm  -DBENCHMARK -DSIZE=4160
+gcc -c main.c -O3 -g -march=native -lgmp -lcrypto -lm  -DBENCHMARK -DSIZE=4160
+gcc -o main main.o fonctions.o -O3 -g -march=native -lgmp -lcrypto -lm  -DBENCHMARK -DSIZE=4160
+make[1] : on quitte le répertoire « /home/ANONYMOUS/research/VectorizedMultiprecision/ifma52_8mult_092023/Multiplications/SBClassicMULSQUARING06042023 »
+./main
+4161 80 65
+
+UPB  : 0x100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+
+
+	  /***************************/
+	 / Timing !!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, mul512_8_SIZE and square512_8_SIZE
+-----------------------------------------------------
+timer gmp (x8)             : 50874
+timer gmp mpn_mul_n (x8)   : 50169
+timer gmp mpn_sqr (x8)     : 31405
+timer mul512_8_SIZE        : 16911
+timer square512_8_SIZE     : 9226
+timer BN_mod_mul_mont (x8) : 173722
+
+autres fonction p25519 :
+------------------------
+timer fexpand_8_512_52       : 4848
+timer fcontract_8_512_52_res : 6531
+
+
+	  /***************************/
+	 / Instructions !!!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, amns_origin vs  amns
+-------------------------
+gmp (x8)             : 180495
+gmp mpn_mul_n (x8)   : 179499
+gmp mpn_sqr (x8)     : 112805
+mul512_8_SIZE        : 31032
+square512_8_SIZE     : 17897
+BN_mod_mul_mont (x8) : 338246
+
+autres fonction p25519 :
+------------------------
+fexpand_8_512_52       : 20066
+fcontract_8_512_52_res : 23773
+
+Au revoir and merci !
+./script.sh 8216
+8216
+#include "sb512_8216.c"
+make -B BENCHMARK=1 SIZE=8216 FILE=1
+make[1] : on entre dans le répertoire « /home/ANONYMOUS/research/VectorizedMultiprecision/ifma52_8mult_092023/Multiplications/SBClassicMULSQUARING06042023 »
+./script.sh 8216
+8216
+#include "sb512_8216.c"
+gcc -c fonctions.c -O3 -g -march=native -lgmp -lcrypto -lm  -DBENCHMARK -DSIZE=8216
+gcc -c main.c -O3 -g -march=native -lgmp -lcrypto -lm  -DBENCHMARK -DSIZE=8216
+gcc -o main main.o fonctions.o -O3 -g -march=native -lgmp -lcrypto -lm  -DBENCHMARK -DSIZE=8216
+make[1] : on quitte le répertoire « /home/ANONYMOUS/research/VectorizedMultiprecision/ifma52_8mult_092023/Multiplications/SBClassicMULSQUARING06042023 »
+./main
+8217 158 129
+
+UPB  : 0x100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+
+
+	  /***************************/
+	 / Timing !!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, mul512_8_SIZE and square512_8_SIZE
+-----------------------------------------------------
+timer gmp (x8)             : 143378
+timer gmp mpn_mul_n (x8)   : 142929
+timer gmp mpn_sqr (x8)     : 93064
+timer mul512_8_SIZE        : 77895
+timer square512_8_SIZE     : 51618
+timer BN_mod_mul_mont (x8) : 670018
+
+autres fonction p25519 :
+------------------------
+timer fexpand_8_512_52       : 9613
+timer fcontract_8_512_52_res : 13371
+
+
+	  /***************************/
+	 / Instructions !!!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, amns_origin vs  amns
+-------------------------
+gmp (x8)             : 516188
+gmp mpn_mul_n (x8)   : 515195
+gmp mpn_sqr (x8)     : 329400
+mul512_8_SIZE        : 124077
+square512_8_SIZE     : 90133
+BN_mod_mul_mont (x8) : 1210404
+
+autres fonction p25519 :
+------------------------
+fexpand_8_512_52       : 39713
+fcontract_8_512_52_res : 45757
+
+Au revoir and merci !
+./script.sh 8320
+8320
+#include "sb512_8320.c"
+make -B BENCHMARK=1 SIZE=8320 FILE=1
+make[1] : on entre dans le répertoire « /home/ANONYMOUS/research/VectorizedMultiprecision/ifma52_8mult_092023/Multiplications/SBClassicMULSQUARING06042023 »
+./script.sh 8320
+8320
+#include "sb512_8320.c"
+gcc -c fonctions.c -O3 -g -march=native -lgmp -lcrypto -lm  -DBENCHMARK -DSIZE=8320
+gcc -c main.c -O3 -g -march=native -lgmp -lcrypto -lm  -DBENCHMARK -DSIZE=8320
+gcc -o main main.o fonctions.o -O3 -g -march=native -lgmp -lcrypto -lm  -DBENCHMARK -DSIZE=8320
+make[1] : on quitte le répertoire « /home/ANONYMOUS/research/VectorizedMultiprecision/ifma52_8mult_092023/Multiplications/SBClassicMULSQUARING06042023 »
+./main
+8321 160 130
+
+UPB  : 0x10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+
+
+	  /***************************/
+	 / Timing !!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, mul512_8_SIZE and square512_8_SIZE
+-----------------------------------------------------
+timer gmp (x8)             : 149207
+timer gmp mpn_mul_n (x8)   : 149267
+timer gmp mpn_sqr (x8)     : 97602
+timer mul512_8_SIZE        : 79515
+timer square512_8_SIZE     : 53380
+timer BN_mod_mul_mont (x8) : 687733
+
+autres fonction p25519 :
+------------------------
+timer fexpand_8_512_52       : 9921
+timer fcontract_8_512_52_res : 13508
+
+
+	  /***************************/
+	 / Instructions !!!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, amns_origin vs  amns
+-------------------------
+gmp (x8)             : 530753
+gmp mpn_mul_n (x8)   : 529767
+gmp mpn_sqr (x8)     : 337337
+mul512_8_SIZE        : 126577
+square512_8_SIZE     : 92957
+BN_mod_mul_mont (x8) : 1245893
+
+autres fonction p25519 :
+------------------------
+fexpand_8_512_52       : 40225
+fcontract_8_512_52_res : 46333
+
+Au revoir and merci !

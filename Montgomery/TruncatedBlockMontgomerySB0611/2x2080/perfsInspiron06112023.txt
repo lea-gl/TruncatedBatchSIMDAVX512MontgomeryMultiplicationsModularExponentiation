@@ -1,0 +1,43 @@
+Block Mont Registers
+
+
+
+Victory !!!!!!!!!!!!!!!!!!!
+
+	  /***********************************/
+	 /   Test on 1000 datasets   /
+	/***********************************/
+
+Victory !!!!!!!!!!!!!!!!!!!
+
+	  /***************************/
+	 / Timing !!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, block_mont_mul512_8_2080
+-----------------------------------------------------------
+timer gmp mpn_mont_mul_red_1 (x8)  : 35752
+timer gmp mpn_mont_mul_red_n (x8)  : 37551
+timer gmp mpn_mod_mult (x8)        : 44571
+timer BN_mod_mul (x8)              : 97182
+timer BN_mod_mul_montgomery (x8)   : 30243
+timer block_mont_mul512_8_2080     : 8984
+
+
+	  /***************************/
+	 / Instructions !!!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, block_mont_mul512_8_2080
+-----------------------------------------------------------
+gmp mpn_mont_mul_red_1 (x8)  : 134929
+gmp mpn_mont_mul_red_n (x8)  : 128121
+gmp mpn_mod_mult (x8)        : 148749
+BN_mod_mul (x8)              : 323956
+BN_mod_mul_montgomery (x8)   : 87758
+block_mont_mul512_8_2080     : 17958
+
+Au revoir and merci !
+

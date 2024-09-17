@@ -1,0 +1,142 @@
+Block, sans soustraction finale :
+---------------------------------
+
+
+
+Victory !!!!!!!!!!!!!!!!!!!
+
+	  /***************************************************/
+	 /   Test on 1000 datasets : batch mod exp   /
+	/***************************************************/
+
+Victory !!!!!!!!!!!!!!!!!!!
+
+	  /***************************/
+	 / Timing !!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, block_mont_mul512_8_1040
+-----------------------------------------------------------
+timer gmp mpn_mont_mul_red_1 (x8)    : 10319
+timer BN_mod_mul_montgomery (x8)     : 8087
+timer block_mont_mul512_8_1040       : 2100
+timer gmp mpn_sec_powm (x8)          : 11230530
+timer BN_mod_exp_mont_consttime (x8) : 8243460
+timer modExp_8_512                   : 4143365
+
+
+	  /***************************/
+	 / Instructions !!!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, block_mont_mul512_8_1040
+-----------------------------------------------------------
+gmp mpn_mont_mul_red_1 (x8)      : 38167
+gmp mpn_mont_mul_red_n (x8)      : 42552
+gmp mpn_sec_powm (x8)            : 42675812
+BN_mod_mul (x8)                  : 102243
+BN_ mod_exp_mont_consttime(x8)   : 23697053
+modExp_8_512                     : 7022487
+
+Au revoir and merci !
+
+
+
+
+
+
+
+Montgomery classique :
+----------------------
+sans soustraction finale
+
+
+
+
+Victory !!!!!!!!!!!!!!!!!!!
+
+	  /***************************************************/
+	 /   Test on 1000 datasets : batch mod exp   /
+	/***************************************************/
+
+Victory !!!!!!!!!!!!!!!!!!!
+
+	  /***************************/
+	 / Timing !!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, block_mont_mul512_8_1040
+-----------------------------------------------------------
+timer gmp mpn_mont_mul_red_1 (x8)    : 10192
+timer BN_mod_mul_montgomery (x8)     : 8011
+timer block_mont_mul512_8_1040       : 2092
+timer gmp mpn_sec_powm (x8)          : 11314104
+timer BN_mod_exp_mont_consttime (x8) : 8294616
+timer modExp_8_512                   : 4237027
+
+
+	  /***************************/
+	 / Instructions !!!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, block_mont_mul512_8_1040
+-----------------------------------------------------------
+gmp mpn_mont_mul_red_1 (x8)      : 38167
+gmp mpn_mont_mul_red_n (x8)      : 42563
+gmp mpn_sec_powm (x8)            : 42675856
+BN_mod_mul (x8)                  : 102245
+BN_ mod_exp_mont_consttime(x8)   : 23695679
+modExp_8_512                     : 6651960
+
+Au revoir and merci !
+
+
+
+Truncated Montgomery classique :
+----------------------
+sans soustraction finale
+
+Victory !!!!!!!!!!!!!!!!!!!
+
+	  /***************************************************/
+	 /   Test on 1000 datasets : batch mod exp   /
+	/***************************************************/
+
+Victory !!!!!!!!!!!!!!!!!!!
+
+	  /***************************/
+	 / Timing !!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, block_mont_mul512_8_1040
+-----------------------------------------------------------
+timer gmp mpn_mont_mul_red_1 (x8)    : 10461
+timer BN_mod_mul_montgomery (x8)     : 8160
+timer block_mont_mul512_8_1040       : 2099
+timer gmp mpn_sec_powm (x8)          : 11284976
+timer BN_mod_exp_mont_consttime (x8) : 8294914
+timer modExp_8_512                   : 3414887
+
+
+	  /***************************/
+	 / Instructions !!!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, block_mont_mul512_8_1040
+-----------------------------------------------------------
+gmp mpn_mont_mul_red_1 (x8)      : 38159
+gmp mpn_mont_mul_red_n (x8)      : 42578
+gmp mpn_sec_powm (x8)            : 42675716
+BN_mod_mul (x8)                  : 102241
+BN_ mod_exp_mont_consttime(x8)   : 23695687
+modExp_8_512                     : 5113710
+
+Au revoir and merci !
+
+

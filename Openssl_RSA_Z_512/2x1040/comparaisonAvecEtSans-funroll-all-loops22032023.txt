@@ -1,0 +1,102 @@
+
+////////////////////////////////////////////////////////////////////////////////////
+
+SANS -funroll-all-loops
+
+
+	  /***********************************/
+	 /   Test sur 1000 jeux de données   /
+	/***********************************/
+
+Victory !!!!!!!!!!!!!!!!!!!
+
+	  /***************************/
+	 / Chronométrage !!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, amns_origin vs  amns
+-------------------------
+timer gmp                   : 5291
+timer gmp mpn_mul_n         : 6371
+timer mul512_8_1040          : 1735
+timer BN_mod_mul            : 22894
+timer BN_mod_mul_montgomery : 11099
+
+autres fonction p25519 :
+------------------------
+timer fexpand_8_512_52       : 1131
+timer fcontract_8_512_52_res : 1728
+
+
+	  /***************************/
+	 / Instructions !!!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, amns_origin vs  amns
+-------------------------
+gmp                   : 29756
+gmp mpn_mul_n         : 23490
+mul512_8_1040          : 2239
+BN_mod_mul            : 93080
+BN_mod_mul_montgomery : 32562
+
+autres fonction p25519 :
+------------------------
+fexpand_8_512_52       : 4787
+fcontract_8_512_52_res : 6436
+
+Au revoir et merci !
+
+////////////////////////////////////////////////////////////////////////////////////
+
+AVEC -funroll-all-loops -> moins d'instructions et plus de cycles ????
+
+
+
+	  /***********************************/
+	 /   Test sur 1000 jeux de données   /
+	/***********************************/
+
+Victory !!!!!!!!!!!!!!!!!!!
+
+	  /***************************/
+	 / Chronométrage !!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, amns_origin vs  amns
+-------------------------
+timer gmp                   : 5298
+timer gmp mpn_mul_n         : 6364
+timer mul512_8_1040          : 1758
+timer BN_mod_mul            : 23544
+timer BN_mod_mul_montgomery : 11103
+
+autres fonction p25519 :
+------------------------
+timer fexpand_8_512_52       : 1061
+timer fcontract_8_512_52_res : 1583
+
+
+	  /***************************/
+	 / Instructions !!!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, amns_origin vs  amns
+-------------------------
+gmp                   : 29052
+gmp mpn_mul_n         : 23493
+mul512_8_1040          : 2178
+BN_mod_mul            : 87175
+BN_mod_mul_montgomery : 32564
+
+autres fonction p25519 :
+------------------------
+fexpand_8_512_52       : 4529
+fcontract_8_512_52_res : 5809
+
+Au revoir et merci !
+

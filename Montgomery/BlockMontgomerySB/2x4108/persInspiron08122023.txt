@@ -1,0 +1,40 @@
+
+Victory !!!!!!!!!!!!!!!!!!!
+
+	  /***********************************/
+	 /   Test on 1000 datasets   /
+	/***********************************/
+
+Victory !!!!!!!!!!!!!!!!!!!
+
+	  /***************************/
+	 / Timing !!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, block_mont_mul512_8_4108
+-----------------------------------------------------------
+timer gmp mpn_mont_mul_red_1 (x8)  : 131967
+timer gmp mpn_mont_mul_red_n (x8)  : 120411
+timer gmp mpn_mod_mult (x8)        : 141745
+timer BN_mod_mul (x8)              : 353608
+timer BN_mod_mul_montgomery (x8)   : 116860
+timer block_mont_mul512_8_4108     : 42730
+
+
+	  /***************************/
+	 / Instructions !!!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, block_mont_mul512_8_4108
+-----------------------------------------------------------
+gmp mpn_mont_mul_red_1 (x8)  : 495821
+gmp mpn_mont_mul_red_n (x8)  : 414761
+gmp mpn_mod_mult (x8)        : 477606
+BN_mod_mul (x8)              : 1131547
+BN_mod_mul_montgomery (x8)   : 334027
+block_mont_mul512_8_4108     : 80627
+
+Au revoir and merci !
+

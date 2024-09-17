@@ -1,0 +1,639 @@
+
+********************************
+
+		W    W __  111
+		 W  W  __  111
+		  WW       111
+
+********************************
+
+Victory !!!!!!!!!!!!!!!!!!!
+
+	  /***********************************/
+	 /   Test on 1000 datasets   /
+	/***********************************/
+
+
+Multiplication
+Victory !!!!!!!!!!!!!!!!!!!
+
+
+Squaring
+Victory !!!!!!!!!!!!!!!!!!!
+
+	  /***************************/
+	 / Timing !!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, mul512_8_SIZE and square512_8_SIZE
+-----------------------------------------------------
+timer gmp (x8)             : 256
+timer gmp mpn_mul_n (x8)   : 193
+timer mul512_8_SIZE        : 13
+timer square512_8_SIZE     : 13
+timer BN_mod_mul (x8)      : 3614
+timer BN_mod_mul_mont (x8) : 968
+
+autres fonction p25519 :
+------------------------
+timer fexpand_8_512_52       : 19
+timer fcontract_8_512_52_res : 53
+
+
+	  /***************************/
+	 / Instructions !!!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, amns_origin vs  amns
+-------------------------
+gmp (x8)             : 890
+gmp mpn_mul_n (x8)   : 693
+mul512_8_SIZE        : 20
+square512_8_SIZE     : 37
+BN_mod_mul (x8)      : 14337
+BN_mod_mul_mont (x8) : 4237
+
+autres fonction p25519 :
+------------------------
+fexpand_8_512_52       : 71
+fcontract_8_512_52_res : 138
+
+Au revoir and merci !
+
+********************************
+
+		W    W __  208208208
+		 W  W  __  208208208
+		  WW       208208208
+
+********************************
+
+Victory !!!!!!!!!!!!!!!!!!!
+
+	  /***********************************/
+	 /   Test on 1000 datasets   /
+	/***********************************/
+
+
+Multiplication
+Victory !!!!!!!!!!!!!!!!!!!
+
+
+Squaring
+Victory !!!!!!!!!!!!!!!!!!!
+
+	  /***************************/
+	 / Timing !!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, mul512_8_SIZE and square512_8_SIZE
+-----------------------------------------------------
+timer gmp (x8)             : 582
+timer gmp mpn_mul_n (x8)   : 429
+timer mul512_8_SIZE        : 41
+timer square512_8_SIZE     : 35
+timer BN_mod_mul (x8)      : 2715
+timer BN_mod_mul_mont (x8) : 1553
+
+autres fonction p25519 :
+------------------------
+timer fexpand_8_512_52       : 46
+timer fcontract_8_512_52_res : 130
+
+
+	  /***************************/
+	 / Instructions !!!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, amns_origin vs  amns
+-------------------------
+gmp (x8)             : 2093
+gmp mpn_mul_n (x8)   : 1288
+mul512_8_SIZE        : 78
+square512_8_SIZE     : 99
+BN_mod_mul (x8)      : 11587
+BN_mod_mul_mont (x8) : 6256
+
+autres fonction p25519 :
+------------------------
+fexpand_8_512_52       : 178
+fcontract_8_512_52_res : 284
+
+Au revoir and merci !
+
+
+********************************
+
+		W    W __  260260260
+		 W  W  __  260260260
+		  WW       260260260
+
+********************************
+
+Victory !!!!!!!!!!!!!!!!!!!
+
+	  /***********************************/
+	 /   Test on 1000 datasets   /
+	/***********************************/
+
+
+Multiplication
+Victory !!!!!!!!!!!!!!!!!!!
+
+
+Squaring
+Victory !!!!!!!!!!!!!!!!!!!
+
+	  /***************************/
+	 / Timing !!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, mul512_8_SIZE and square512_8_SIZE
+-----------------------------------------------------
+timer gmp (x8)             : 765
+timer gmp mpn_mul_n (x8)   : 561
+timer mul512_8_SIZE        : 61
+timer square512_8_SIZE     : 49
+timer BN_mod_mul (x8)      : 3000
+timer BN_mod_mul_mont (x8) : 1951
+
+autres fonction p25519 :
+------------------------
+timer fexpand_8_512_52       : 57
+timer fcontract_8_512_52_res : 168
+
+
+	  /***************************/
+	 / Instructions !!!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, amns_origin vs  amns
+-------------------------
+gmp (x8)             : 2732
+gmp mpn_mul_n (x8)   : 2036
+mul512_8_SIZE        : 112
+square512_8_SIZE     : 137
+BN_mod_mul (x8)      : 22679
+BN_mod_mul_mont (x8) : 7484
+
+autres fonction p25519 :
+------------------------
+fexpand_8_512_52       : 206
+fcontract_8_512_52_res : 360
+
+Au revoir and merci !
+
+
+********************************
+
+		W    W __  520520520
+		 W  W  __  520520520
+		  WW       520520520
+
+********************************
+
+Victory !!!!!!!!!!!!!!!!!!!
+
+	  /***********************************/
+	 /   Test on 1000 datasets   /
+	/***********************************/
+
+
+Multiplication
+Victory !!!!!!!!!!!!!!!!!!!
+
+
+Squaring
+Victory !!!!!!!!!!!!!!!!!!!
+
+	  /***************************/
+	 / Timing !!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, mul512_8_SIZE and square512_8_SIZE
+-----------------------------------------------------
+timer gmp (x8)             : 1704
+timer gmp mpn_mul_n (x8)   : 1520
+timer mul512_8_SIZE        : 223
+timer square512_8_SIZE     : 150
+timer BN_mod_mul (x8)      : 12522
+timer BN_mod_mul_mont (x8) : 3847
+
+autres fonction p25519 :
+------------------------
+timer fexpand_8_512_52       : 134
+timer fcontract_8_512_52_res : 846
+
+
+	  /***************************/
+	 / Instructions !!!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, amns_origin vs  amns
+-------------------------
+gmp (x8)             : 6168
+gmp mpn_mul_n (x8)   : 5420
+mul512_8_SIZE        : 324
+square512_8_SIZE     : 387
+BN_mod_mul (x8)      : 14017
+BN_mod_mul_mont (x8) : 13635
+
+autres fonction p25519 :
+------------------------
+fexpand_8_512_52       : 535
+fcontract_8_512_52_res : 3296
+
+Au revoir and merci !
+
+
+********************************
+
+		W    W __  104010401040
+		 W  W  __  104010401040
+		  WW       104010401040
+
+********************************
+
+Victory !!!!!!!!!!!!!!!!!!!
+
+	  /***********************************/
+	 /   Test on 1000 datasets   /
+	/***********************************/
+
+
+Multiplication
+Victory !!!!!!!!!!!!!!!!!!!
+
+
+Squaring
+Victory !!!!!!!!!!!!!!!!!!!
+
+	  /***************************/
+	 / Timing !!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, mul512_8_SIZE and square512_8_SIZE
+-----------------------------------------------------
+timer gmp (x8)             : 5313
+timer gmp mpn_mul_n (x8)   : 5220
+timer mul512_8_SIZE        : 890
+timer square512_8_SIZE     : 501
+timer BN_mod_mul (x8)      : 36500
+timer BN_mod_mul_mont (x8) : 11144
+
+autres fonction p25519 :
+------------------------
+timer fexpand_8_512_52       : 1165
+timer fcontract_8_512_52_res : 1725
+
+
+	  /***************************/
+	 / Instructions !!!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, amns_origin vs  amns
+-------------------------
+gmp (x8)             : 18440
+gmp mpn_mul_n (x8)   : 17706
+mul512_8_SIZE        : 1638
+square512_8_SIZE     : 1208
+BN_mod_mul (x8)      : 17823
+BN_mod_mul_mont (x8) : 32567
+
+autres fonction p25519 :
+------------------------
+fexpand_8_512_52       : 4893
+fcontract_8_512_52_res : 6436
+
+Au revoir and merci !
+
+
+********************************
+
+		W    W __  208020802080
+		 W  W  __  208020802080
+		  WW       208020802080
+
+********************************
+
+Victory !!!!!!!!!!!!!!!!!!!
+
+	  /***********************************/
+	 /   Test on 1000 datasets   /
+	/***********************************/
+
+
+Multiplication
+Victory !!!!!!!!!!!!!!!!!!!
+
+
+Squaring
+Victory !!!!!!!!!!!!!!!!!!!
+
+	  /***************************/
+	 / Timing !!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, mul512_8_SIZE and square512_8_SIZE
+-----------------------------------------------------
+timer gmp (x8)             : 16675
+timer gmp mpn_mul_n (x8)   : 16381
+timer mul512_8_SIZE        : 4076
+timer square512_8_SIZE     : 1898
+timer BN_mod_mul (x8)      : 111400
+timer BN_mod_mul_mont (x8) : 42063
+
+autres fonction p25519 :
+------------------------
+timer fexpand_8_512_52       : 2412
+timer fcontract_8_512_52_res : 3268
+
+
+	  /***************************/
+	 / Instructions !!!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, amns_origin vs  amns
+-------------------------
+gmp (x8)             : 57958
+gmp mpn_mul_n (x8)   : 56947
+mul512_8_SIZE        : 7723
+square512_8_SIZE     : 4284
+BN_mod_mul (x8)      : 395907
+BN_mod_mul_mont (x8) : 96385
+
+autres fonction p25519 :
+------------------------
+fexpand_8_512_52       : 9954
+fcontract_8_512_52_res : 12030
+
+Au revoir and merci !
+
+
+********************************
+
+		W    W __  410841084108
+		 W  W  __  410841084108
+		  WW       410841084108
+
+********************************
+
+Victory !!!!!!!!!!!!!!!!!!!
+
+	  /***********************************/
+	 /   Test on 1000 datasets   /
+	/***********************************/
+
+
+Multiplication
+Victory !!!!!!!!!!!!!!!!!!!
+
+
+Squaring
+Victory !!!!!!!!!!!!!!!!!!!
+
+	  /***************************/
+	 / Timing !!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, mul512_8_SIZE and square512_8_SIZE
+-----------------------------------------------------
+timer gmp (x8)             : 50612
+timer gmp mpn_mul_n (x8)   : 50074
+timer mul512_8_SIZE        : 16326
+timer square512_8_SIZE     : 8923
+timer BN_mod_mul (x8)      : 10995
+timer BN_mod_mul_mont (x8) : 169046
+
+autres fonction p25519 :
+------------------------
+timer fexpand_8_512_52       : 4788
+timer fcontract_8_512_52_res : 6501
+
+
+	  /***************************/
+	 / Instructions !!!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, amns_origin vs  amns
+-------------------------
+gmp (x8)             : 180443
+gmp mpn_mul_n (x8)   : 179444
+mul512_8_SIZE        : 29857
+square512_8_SIZE     : 17354
+BN_mod_mul (x8)      : 1337078
+BN_mod_mul_mont (x8) : 328485
+
+autres fonction p25519 :
+------------------------
+fexpand_8_512_52       : 19810
+fcontract_8_512_52_res : 23508
+
+Au revoir and merci !
+
+
+********************************
+
+		W    W __  416041604160
+		 W  W  __  416041604160
+		  WW       416041604160
+
+********************************
+
+Victory !!!!!!!!!!!!!!!!!!!
+
+	  /***********************************/
+	 /   Test on 1000 datasets   /
+	/***********************************/
+
+
+Multiplication
+Victory !!!!!!!!!!!!!!!!!!!
+
+
+Squaring
+Victory !!!!!!!!!!!!!!!!!!!
+
+	  /***************************/
+	 / Timing !!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, mul512_8_SIZE and square512_8_SIZE
+-----------------------------------------------------
+timer gmp (x8)             : 50711
+timer gmp mpn_mul_n (x8)   : 50207
+timer mul512_8_SIZE        : 16912
+timer square512_8_SIZE     : 9235
+timer BN_mod_mul (x8)      : 404556
+timer BN_mod_mul_mont (x8) : 172412
+
+autres fonction p25519 :
+------------------------
+timer fexpand_8_512_52       : 4845
+timer fcontract_8_512_52_res : 6538
+
+
+	  /***************************/
+	 / Instructions !!!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, amns_origin vs  amns
+-------------------------
+gmp (x8)             : 180494
+gmp mpn_mul_n (x8)   : 179497
+mul512_8_SIZE        : 31032
+square512_8_SIZE     : 17905
+BN_mod_mul (x8)      : 1351625
+BN_mod_mul_mont (x8) : 338245
+
+autres fonction p25519 :
+------------------------
+fexpand_8_512_52       : 20066
+fcontract_8_512_52_res : 23773
+
+Au revoir and merci !
+
+
+********************************
+
+		W    W __  821682168216
+		 W  W  __  821682168216
+		  WW       821682168216
+
+********************************
+
+Victory !!!!!!!!!!!!!!!!!!!
+
+	  /***********************************/
+	 /   Test on 1000 datasets   /
+	/***********************************/
+
+
+Multiplication
+Victory !!!!!!!!!!!!!!!!!!!
+
+
+Squaring
+Victory !!!!!!!!!!!!!!!!!!!
+
+	  /***************************/
+	 / Timing !!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, mul512_8_SIZE and square512_8_SIZE
+-----------------------------------------------------
+timer gmp (x8)             : 143257
+timer gmp mpn_mul_n (x8)   : 143207
+timer mul512_8_SIZE        : 74178
+timer square512_8_SIZE     : 51655
+timer BN_mod_mul (x8)      : 1509270
+timer BN_mod_mul_mont (x8) : 670601
+
+autres fonction p25519 :
+------------------------
+timer fexpand_8_512_52       : 9617
+timer fcontract_8_512_52_res : 13328
+
+
+	  /***************************/
+	 / Instructions !!!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, amns_origin vs  amns
+-------------------------
+gmp (x8)             : 516190
+gmp mpn_mul_n (x8)   : 515196
+mul512_8_SIZE        : 124076
+square512_8_SIZE     : 90167
+BN_mod_mul (x8)      : 70361
+BN_mod_mul_mont (x8) : 1210405
+
+autres fonction p25519 :
+------------------------
+fexpand_8_512_52       : 39713
+fcontract_8_512_52_res : 45757
+
+Au revoir and merci !
+
+
+********************************
+
+		W    W __  832083208320
+		 W  W  __  832083208320
+		  WW       832083208320
+
+********************************
+
+Victory !!!!!!!!!!!!!!!!!!!
+
+	  /***********************************/
+	 /   Test on 1000 datasets   /
+	/***********************************/
+
+
+Multiplication
+Victory !!!!!!!!!!!!!!!!!!!
+
+
+Squaring
+Victory !!!!!!!!!!!!!!!!!!!
+
+	  /***************************/
+	 / Timing !!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, mul512_8_SIZE and square512_8_SIZE
+-----------------------------------------------------
+timer gmp (x8)             : 148965
+timer gmp mpn_mul_n (x8)   : 148626
+timer mul512_8_SIZE        : 78891
+timer square512_8_SIZE     : 53327
+timer BN_mod_mul (x8)      : 20722
+timer BN_mod_mul_mont (x8) : 690615
+
+autres fonction p25519 :
+------------------------
+timer fexpand_8_512_52       : 9906
+timer fcontract_8_512_52_res : 13554
+
+
+	  /***************************/
+	 / Instructions !!!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, amns_origin vs  amns
+-------------------------
+gmp (x8)             : 530767
+gmp mpn_mul_n (x8)   : 529768
+mul512_8_SIZE        : 126572
+square512_8_SIZE     : 92911
+BN_mod_mul (x8)      : 4851948
+BN_mod_mul_mont (x8) : 1245893
+
+autres fonction p25519 :
+------------------------
+fexpand_8_512_52       : 40224
+fcontract_8_512_52_res : 46333
+
+Au revoir and merci !
+

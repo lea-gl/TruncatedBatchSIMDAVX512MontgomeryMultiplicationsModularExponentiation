@@ -1,0 +1,40 @@
+
+Victory !!!!!!!!!!!!!!!!!!!
+
+	  /***************************************************/
+	 /   Test sur 1000 jeux de données : batch mod exp   /
+	/***************************************************/
+
+Victory !!!!!!!!!!!!!!!!!!!
+
+	  /***************************/
+	 / Chronométrage !!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, //block_mont_mul512_8_1040
+-----------------------------------------------------------
+timer gmp mpn_mont_mul_red_1 (x8)      : 35818
+timer BN_mod_mul_montgomery (x8)       : 30883
+timer BN_mod_exp_mont_consttime (x8)   : 57492670
+timer gmp mpn_sec_powm (x8)            : 42831400
+timer BN_mod_exp_mont_consttimex2 (x4) : 21673772
+timer modExp_8_512                     : 15718318
+
+
+	  /***************************/
+	 / Instructions !!!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, //block_mont_mul512_8_1040
+-----------------------------------------------------------
+gmp mpn_mont_mul_red_1 (x8)      : 134950
+gmp mpn_mont_mul_red_n (x8)      : 128400
+gmp mpn_sec_powm (x8)            : 155017361
+BN_mod_exp_mont_consttimex2 (x4) : 63525865
+BN_mod_exp_mont_consttime (x8)   : 162745948
+modExp_8_512                     : 25528112
+
+Au revoir et merci !
+

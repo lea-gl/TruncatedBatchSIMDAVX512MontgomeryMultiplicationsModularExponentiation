@@ -1,0 +1,210 @@
+Non TRUNCATED, FINAL SUB, NO FMA
+
+
+Victory !!!!!!!!!!!!!!!!!!!
+
+	  /***********************************/
+	 /   Test on 1000 datasets   /
+	/***********************************/
+
+Victory !!!!!!!!!!!!!!!!!!!
+
+	  /***********************************/
+	 /   Test on 1000 datasets   /
+	/***********************************/
+
+Montgomery Squaring
+Victory !!!!!!!!!!!!!!!!!!!
+
+	  /***************************/
+	 / Timing !!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, mont_mul512_8_2078K, mont_square512_8_2078K
+-----------------------------------------------------------
+timer gmp mpn_mont_mul_red_1 (x8)  : 35767
+timer gmp mpn_mont_mul_red_n (x8)  : 37499
+timer gmp mpn_mod_mult (x8)        : 44501
+timer BN_mod_mul (x8)              : 95004
+timer BN_mod_mul_montgomery (x8)   : 29902
+timer mont_mul512_8_2078K          : 8400
+timer mont_square512_8_2078K       : 7334
+
+
+	  /***************************/
+	 / Instructions !!!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, mont_mul512_8_2078K, mont_square512_8_2078K
+-----------------------------------------------------------
+gmp mpn_mont_mul_red_1 (x8)  : 134942
+gmp mpn_mont_mul_red_n (x8)  : 128162
+gmp mpn_mod_mult (x8)        : 148706
+BN_mod_mul (x8)              : 323340
+BN_mod_mul_montgomery (x8)   : 87759
+mont_mul512_8_2078K          : 14553
+mont_square512_8_2078K       : 11945
+
+Au revoir and merci !
+
+
+Non TRUNCATED, NO FINAL SUB, NO FMA
+
+Victory !!!!!!!!!!!!!!!!!!!
+
+	  /***********************************/
+	 /   Test on 1000 datasets   /
+	/***********************************/
+
+Victory !!!!!!!!!!!!!!!!!!!
+
+	  /***********************************/
+	 /   Test on 1000 datasets   /
+	/***********************************/
+
+Montgomery Squaring
+Victory !!!!!!!!!!!!!!!!!!!
+
+	  /***************************/
+	 / Timing !!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, mont_mul512_8_2078K, mont_square512_8_2078K
+-----------------------------------------------------------
+timer gmp mpn_mont_mul_red_1 (x8)  : 36301
+timer gmp mpn_mont_mul_red_n (x8)  : 37496
+timer gmp mpn_mod_mult (x8)        : 44506
+timer BN_mod_mul (x8)              : 94991
+timer BN_mod_mul_montgomery (x8)   : 30204
+timer mont_mul512_8_2078K          : 8298
+timer mont_square512_8_2078K       : 7205
+
+
+	  /***************************/
+	 / Instructions !!!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, mont_mul512_8_2078K, mont_square512_8_2078K
+-----------------------------------------------------------
+gmp mpn_mont_mul_red_1 (x8)  : 134941
+gmp mpn_mont_mul_red_n (x8)  : 128150
+gmp mpn_mod_mult (x8)        : 148706
+BN_mod_mul (x8)              : 323344
+BN_mod_mul_montgomery (x8)   : 87760
+mont_mul512_8_2078K          : 15088
+mont_square512_8_2078K       : 12481
+
+Au revoir and merci !
+
+
+
+
+******************************************************************
+
+TRUNCATED, NO FINAL SUB, NO FMA
+
+Victory !!!!!!!!!!!!!!!!!!!
+
+	  /***********************************/
+	 /   Test on 1000 datasets   /
+	/***********************************/
+
+Victory !!!!!!!!!!!!!!!!!!!
+
+	  /***********************************/
+	 /   Test on 1000 datasets   /
+	/***********************************/
+
+Montgomery Squaring
+Victory !!!!!!!!!!!!!!!!!!!
+
+	  /***************************/
+	 / Timing !!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, mont_mul512_8_2078K, mont_square512_8_2078K
+-----------------------------------------------------------
+timer gmp mpn_mont_mul_red_1 (x8)  : 35768
+timer gmp mpn_mont_mul_red_n (x8)  : 37496
+timer gmp mpn_mod_mult (x8)        : 44577
+timer BN_mod_mul (x8)              : 94964
+timer BN_mod_mul_montgomery (x8)   : 29918
+timer mont_mul512_8_2078K          : 7237
+timer mont_square512_8_2078K       : 6159
+
+
+	  /***************************/
+	 / Instructions !!!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, mont_mul512_8_2078K, mont_square512_8_2078K
+-----------------------------------------------------------
+gmp mpn_mont_mul_red_1 (x8)  : 134944
+gmp mpn_mont_mul_red_n (x8)  : 128141
+gmp mpn_mod_mult (x8)        : 148706
+BN_mod_mul (x8)              : 323354
+BN_mod_mul_montgomery (x8)   : 87759
+mont_mul512_8_2078K          : 13024
+mont_square512_8_2078K       : 10417
+
+Au revoir and merci !
+
+******************************************************************
+
+TRUNCATED, NO FINAL SUB, NO FMA, CARRY COMPUTATION
+
+Victory !!!!!!!!!!!!!!!!!!!
+
+	  /***********************************/
+	 /   Test on 1000 datasets   /
+	/***********************************/
+
+Victory !!!!!!!!!!!!!!!!!!!
+
+	  /***********************************/
+	 /   Test on 1000 datasets   /
+	/***********************************/
+
+Montgomery Squaring
+Victory !!!!!!!!!!!!!!!!!!!
+
+	  /***************************/
+	 / Timing !!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, mont_mul512_8_2078K, mont_square512_8_2078K
+-----------------------------------------------------------
+timer gmp mpn_mont_mul_red_1 (x8)  : 36014
+timer gmp mpn_mont_mul_red_n (x8)  : 37501
+timer gmp mpn_mod_mult (x8)        : 44507
+timer BN_mod_mul (x8)              : 94949
+timer BN_mod_mul_montgomery (x8)   : 29899
+timer mont_mul512_8_2078K          : 7286
+timer mont_square512_8_2078K       : 6202
+
+
+	  /***************************/
+	 / Instructions !!!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, mont_mul512_8_2078K, mont_square512_8_2078K
+-----------------------------------------------------------
+gmp mpn_mont_mul_red_1 (x8)  : 134940
+gmp mpn_mont_mul_red_n (x8)  : 128175
+gmp mpn_mod_mult (x8)        : 148702
+BN_mod_mul (x8)              : 323343
+BN_mod_mul_montgomery (x8)   : 87759
+mont_mul512_8_2078K          : 13096
+mont_square512_8_2078K       : 10489
+
+Au revoir and merci !
+
+

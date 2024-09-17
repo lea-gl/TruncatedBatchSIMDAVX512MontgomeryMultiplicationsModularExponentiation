@@ -1,0 +1,244 @@
+
+********************************
+
+		W    W __  111
+		 W  W  __  111
+		  WW       111
+
+********************************
+
+
+Victory !!!!!!!!!!!!!!!!!!!
+
+	  /***************************************************/
+	 /   Test on 1000 datasets : batch mod exp   /
+	/***************************************************/
+
+Victory !!!!!!!!!!!!!!!!!!!
+
+	  /***************************/
+	 / Timing !!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, //block_mont_mul512_8_1040
+-----------------------------------------------------------
+timer gmp mpn_mont_mul_red_1 (x8)    : 10222
+timer BN_mod_mul_montgomery (x8)     : 7987
+timer //block_mont_mul512_8_1040       : 3
+timer gmp mpn_sec_powm (x8)          : 11235047
+timer BN_mod_exp_mont_consttime (x8) : 8300481
+timer modExp_8_512                   : 3475597
+
+
+	  /***************************/
+	 / Instructions !!!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, //block_mont_mul512_8_1040
+-----------------------------------------------------------
+gmp mpn_mont_mul_red_1 (x8)      : 38168
+gmp mpn_mont_mul_red_n (x8)      : 42569
+gmp mpn_sec_powm (x8)            : 42677810
+BN_mod_mul (x8)                  : 102242
+BN_ mod_exp_mont_consttime(x8)   : 23697538
+modExp_8_512                     : 5531045
+
+Au revoir and merci !
+
+********************************
+
+		W    W __  222
+		 W  W  __  222
+		  WW       222
+
+********************************
+
+
+Victory !!!!!!!!!!!!!!!!!!!
+
+	  /***************************************************/
+	 /   Test on 1000 datasets : batch mod exp   /
+	/***************************************************/
+
+Victory !!!!!!!!!!!!!!!!!!!
+
+	  /***************************/
+	 / Timing !!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, //block_mont_mul512_8_1040
+-----------------------------------------------------------
+timer gmp mpn_mont_mul_red_1 (x8)    : 10213
+timer BN_mod_mul_montgomery (x8)     : 8124
+timer //block_mont_mul512_8_1040       : 3
+timer gmp mpn_sec_powm (x8)          : 11356385
+timer BN_mod_exp_mont_consttime (x8) : 8268314
+timer modExp_8_512                   : 2526243
+
+
+	  /***************************/
+	 / Instructions !!!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, //block_mont_mul512_8_1040
+-----------------------------------------------------------
+gmp mpn_mont_mul_red_1 (x8)      : 38168
+gmp mpn_mont_mul_red_n (x8)      : 42571
+gmp mpn_sec_powm (x8)            : 42679425
+BN_mod_mul (x8)                  : 102240
+BN_ mod_exp_mont_consttime(x8)   : 23699908
+modExp_8_512                     : 3767318
+
+Au revoir and merci !
+
+
+********************************
+
+		W    W __  333
+		 W  W  __  333
+		  WW       333
+
+********************************
+
+
+Victory !!!!!!!!!!!!!!!!!!!
+
+	  /***************************************************/
+	 /   Test on 1000 datasets : batch mod exp   /
+	/***************************************************/
+
+Victory !!!!!!!!!!!!!!!!!!!
+
+	  /***************************/
+	 / Timing !!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, //block_mont_mul512_8_1040
+-----------------------------------------------------------
+timer gmp mpn_mont_mul_red_1 (x8)    : 10185
+timer BN_mod_mul_montgomery (x8)     : 8067
+timer //block_mont_mul512_8_1040       : 3
+timer gmp mpn_sec_powm (x8)          : 11366462
+timer BN_mod_exp_mont_consttime (x8) : 8278858
+timer modExp_8_512                   : 2209626
+
+
+	  /***************************/
+	 / Instructions !!!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, //block_mont_mul512_8_1040
+-----------------------------------------------------------
+gmp mpn_mont_mul_red_1 (x8)      : 38167
+gmp mpn_mont_mul_red_n (x8)      : 42584
+gmp mpn_sec_powm (x8)            : 42680113
+BN_mod_mul (x8)                  : 102245
+BN_ mod_exp_mont_consttime(x8)   : 23700257
+modExp_8_512                     : 3346839
+
+Au revoir and merci !
+
+
+********************************
+
+		W    W __  444
+		 W  W  __  444
+		  WW       444
+
+********************************
+
+
+Victory !!!!!!!!!!!!!!!!!!!
+
+	  /***************************************************/
+	 /   Test on 1000 datasets : batch mod exp   /
+	/***************************************************/
+
+Victory !!!!!!!!!!!!!!!!!!!
+
+	  /***************************/
+	 / Timing !!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, //block_mont_mul512_8_1040
+-----------------------------------------------------------
+timer gmp mpn_mont_mul_red_1 (x8)    : 10243
+timer BN_mod_mul_montgomery (x8)     : 8059
+timer //block_mont_mul512_8_1040       : 3
+timer gmp mpn_sec_powm (x8)          : 11284703
+timer BN_mod_exp_mont_consttime (x8) : 8283045
+timer modExp_8_512                   : 2090541
+
+
+	  /***************************/
+	 / Instructions !!!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, //block_mont_mul512_8_1040
+-----------------------------------------------------------
+gmp mpn_mont_mul_red_1 (x8)      : 38166
+gmp mpn_mont_mul_red_n (x8)      : 42568
+gmp mpn_sec_powm (x8)            : 42682452
+BN_mod_mul (x8)                  : 102244
+BN_ mod_exp_mont_consttime(x8)   : 23699818
+modExp_8_512                     : 3211060
+
+Au revoir and merci !
+
+
+********************************
+
+		W    W __  555
+		 W  W  __  555
+		  WW       555
+
+********************************
+
+
+Victory !!!!!!!!!!!!!!!!!!!
+
+	  /***************************************************/
+	 /   Test on 1000 datasets : batch mod exp   /
+	/***************************************************/
+
+Victory !!!!!!!!!!!!!!!!!!!
+
+	  /***************************/
+	 / Timing !!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, //block_mont_mul512_8_1040
+-----------------------------------------------------------
+timer gmp mpn_mont_mul_red_1 (x8)    : 10339
+timer BN_mod_mul_montgomery (x8)     : 8170
+timer //block_mont_mul512_8_1040       : 3
+timer gmp mpn_sec_powm (x8)          : 11281884
+timer BN_mod_exp_mont_consttime (x8) : 8273454
+timer modExp_8_512                   : 2105993
+
+
+	  /***************************/
+	 / Instructions !!!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, //block_mont_mul512_8_1040
+-----------------------------------------------------------
+gmp mpn_mont_mul_red_1 (x8)      : 38166
+gmp mpn_mont_mul_red_n (x8)      : 42567
+gmp mpn_sec_powm (x8)            : 42680095
+BN_mod_mul (x8)                  : 102245
+BN_ mod_exp_mont_consttime(x8)   : 23700627
+modExp_8_512                     : 3271707
+
+Au revoir and merci !
+

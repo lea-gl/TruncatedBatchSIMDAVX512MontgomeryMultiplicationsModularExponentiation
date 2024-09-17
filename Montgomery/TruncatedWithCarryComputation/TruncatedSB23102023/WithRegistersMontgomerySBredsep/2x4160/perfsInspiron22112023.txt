@@ -1,0 +1,61 @@
+/**************************************************
+
+		Carry COMPUTATION
+
+**************************************************/
+
+		TRUNCATED  -O3 -funroll-all-loops
+
+Without final subtraction :
+---------------------------
+
+
+Victory !!!!!!!!!!!!!!!!!!!
+
+	  /***********************************/
+	 /   Test on 1000 datasets   /
+	/***********************************/
+
+Montgomery Multiplication
+Victory !!!!!!!!!!!!!!!!!!!
+
+	  /***********************************/
+	 /   Test on 1000 datasets   /
+	/***********************************/
+
+Montgomery Squaring
+Victory !!!!!!!!!!!!!!!!!!!
+
+	  /***************************/
+	 / Timing !!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, mont_mul512_8_4160, mont_square512_8_4160
+-----------------------------------------------------------
+timer gmp mpn_mont_mul_red_1 (x8)  : 131984
+timer gmp mpn_mont_mul_red_n (x8)  : 120277
+timer gmp mpn_mod_mult (x8)        : 141306
+timer BN_mod_mul (x8)              : 351390
+timer BN_mod_mul_montgomery (x8)   : 116878
+timer mont_mul512_8_4160           : 31638
+timer mont_square512_8_4160        : 24193
+
+
+	  /***************************/
+	 / Instructions !!!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, mont_mul512_8_4160, mont_square512_8_4160
+-----------------------------------------------------------
+gmp mpn_mont_mul_red_1 (x8)  : 495835
+gmp mpn_mont_mul_red_n (x8)  : 414783
+gmp mpn_mod_mult (x8)        : 477629
+BN_mod_mul (x8)              : 1131233
+BN_mod_mul_montgomery (x8)   : 334029
+mont_mul512_8_4160           : 59713
+mont_square512_8_4160        : 37488
+
+Au revoir and merci !
+

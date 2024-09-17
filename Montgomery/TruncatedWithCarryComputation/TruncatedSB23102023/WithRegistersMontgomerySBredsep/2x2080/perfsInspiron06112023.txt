@@ -1,0 +1,127 @@
+
+
+
+
+		TRUNCATED (1 word)
+
+
+With final subtraction :
+------------------------
+
+
+
+
+Victory !!!!!!!!!!!!!!!!!!!
+
+	  /***********************************/
+	 /   Test on 1000 datasets   /
+	/***********************************/
+
+Montgomery Multiplication
+Victory !!!!!!!!!!!!!!!!!!!
+
+	  /***********************************/
+	 /   Test on 1000 datasets   /
+	/***********************************/
+
+Montgomery Squaring
+Victory !!!!!!!!!!!!!!!!!!!
+
+	  /***************************/
+	 / Timing !!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, mont_mul512_8_2080, mont_square512_8_2080
+-----------------------------------------------------------
+timer gmp mpn_mont_mul_red_1 (x8)  : 35750
+timer gmp mpn_mont_mul_red_n (x8)  : 37807
+timer gmp mpn_mod_mult (x8)        : 44554
+timer BN_mod_mul (x8)              : 94536
+timer BN_mod_mul_montgomery (x8)   : 29954
+timer mont_mul512_8_2080           : 7379
+timer mont_square512_8_2080        : 5613
+
+
+	  /***************************/
+	 / Instructions !!!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, mont_mul512_8_2080, mont_square512_8_2080
+-----------------------------------------------------------
+gmp mpn_mont_mul_red_1 (x8)  : 134937
+gmp mpn_mont_mul_red_n (x8)  : 128228
+gmp mpn_mod_mult (x8)        : 148737
+BN_mod_mul (x8)              : 323554
+BN_mod_mul_montgomery (x8)   : 87750
+mont_mul512_8_2080           : 13627
+mont_square512_8_2080        : 8332
+
+Au revoir and merci !
+
+
+
+
+
+
+
+
+
+
+
+Without final subtraction :
+---------------------------
+
+Victory !!!!!!!!!!!!!!!!!!!
+
+	  /***********************************/
+	 /   Test on 1000 datasets   /
+	/***********************************/
+
+Montgomery Multiplication
+Victory !!!!!!!!!!!!!!!!!!!
+
+	  /***********************************/
+	 /   Test on 1000 datasets   /
+	/***********************************/
+
+Montgomery Squaring
+Victory !!!!!!!!!!!!!!!!!!!
+
+	  /***************************/
+	 / Timing !!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, mont_mul512_8_2080, mont_square512_8_2080
+-----------------------------------------------------------
+timer gmp mpn_mont_mul_red_1 (x8)  : 35759
+timer gmp mpn_mont_mul_red_n (x8)  : 37839
+timer gmp mpn_mod_mult (x8)        : 44598
+timer BN_mod_mul (x8)              : 96487
+timer BN_mod_mul_montgomery (x8)   : 29942
+timer mont_mul512_8_2080           : 7284
+timer mont_square512_8_2080        : 5542
+
+
+	  /***************************/
+	 / Instructions !!!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, mont_mul512_8_2080, mont_square512_8_2080
+-----------------------------------------------------------
+gmp mpn_mont_mul_red_1 (x8)  : 134941
+gmp mpn_mont_mul_red_n (x8)  : 128244
+gmp mpn_mod_mult (x8)        : 148737
+BN_mod_mul (x8)              : 323558
+BN_mod_mul_montgomery (x8)   : 87760
+mont_mul512_8_2080           : 14363
+mont_square512_8_2080        : 9067
+
+Au revoir and merci !
+
+
+
+

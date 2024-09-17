@@ -1,0 +1,52 @@
+WITHOUT FINAL SUB, carry computation
+
+
+Victory !!!!!!!!!!!!!!!!!!!
+
+	  /***********************************/
+	 /   Test on 1000 datasets   /
+	/***********************************/
+
+Montgomery Multiplication
+Victory !!!!!!!!!!!!!!!!!!!
+
+	  /***********************************/
+	 /   Test on 1000 datasets   /
+	/***********************************/
+
+Montgomery Squaring
+Victory !!!!!!!!!!!!!!!!!!!
+
+	  /***************************/
+	 / Timing !!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, mont_mul512_8_4108, mont_square512_8_4108
+-----------------------------------------------------------
+timer gmp mpn_mont_mul_red_1 (x8)  : 135346
+timer gmp mpn_mont_mul_red_n (x8)  : 120398
+timer gmp mpn_mod_mult (x8)        : 141003
+timer BN_mod_mul (x8)              : 353522
+timer BN_mod_mul_montgomery (x8)   : 118387
+timer mont_mul512_8_4108           : 30492
+timer mont_square512_8_4108        : 23413
+
+
+	  /***************************/
+	 / Instructions !!!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, mont_mul512_8_4108, mont_square512_8_4108
+-----------------------------------------------------------
+gmp mpn_mont_mul_red_1 (x8)  : 495830
+gmp mpn_mont_mul_red_n (x8)  : 414850
+gmp mpn_mod_mult (x8)        : 477624
+BN_mod_mul (x8)              : 1131545
+BN_mod_mul_montgomery (x8)   : 334029
+mont_mul512_8_4108           : 57824
+mont_square512_8_4108        : 36571
+
+Au revoir and merci !
+

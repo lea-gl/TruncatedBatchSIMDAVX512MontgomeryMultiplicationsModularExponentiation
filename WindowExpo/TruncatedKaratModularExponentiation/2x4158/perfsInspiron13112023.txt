@@ -1,0 +1,43 @@
+WITHOUT FINAL SUB (NTEST = 10)
+
+
+Victory !!!!!!!!!!!!!!!!!!!
+
+	  /***************************************************/
+	 /   Test on 1000 datasets : batch mod exp   /
+	/***************************************************/
+
+Victory !!!!!!!!!!!!!!!!!!!
+
+	  /***************************/
+	 / Timing !!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, block_mont_mul512_8_4158K
+-----------------------------------------------------------
+n_itch = 4352, nb_limbs = 64
+timer gmp mpn_mont_mul_red_1 (x8)    : 368934881474191031
+timer BN_mod_mul_montgomery (x8)     : 368934881474191031
+timer mont_mul512_8_4158K            : 36893488147419103
+timer gmp mpn_sec_powm (x8)          : 368934881474191031
+timer BN_mod_exp_mont_consttime (x8) : 368934881474191031
+timer modExp_8_512                   : 263745002
+
+
+	  /***************************/
+	 / Instructions !!!!!!!!!!!!!/
+	/***************************/
+
+
+gmp, BN, BN_MONT, block_mont_mul512_8_4158K
+-----------------------------------------------------------
+gmp mpn_mont_mul_red_1 (x8)      : 368934881474191031
+gmp mpn_mont_mul_red_n (x8)      : 368934881474191031
+gmp mpn_sec_powm (x8)            : 368934881474191031
+BN_mod_mul (x8)                  : 368934881474191031
+BN_ mod_exp_mont_consttime(x8)   : 368934881474191031
+modExp_8_512                     : 445568438
+
+Au revoir and merci !
+

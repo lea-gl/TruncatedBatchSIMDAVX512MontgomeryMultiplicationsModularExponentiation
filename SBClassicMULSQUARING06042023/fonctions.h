@@ -1,0 +1,57 @@
+
+#ifndef FONCTIONS
+#define FONCTIONS
+
+#define CEIL_DIVIDE(a, b)  ((a/b) + (a % b == 0 ? 0 : 1)) /*!< Divide a by b and ceil the result*/
+
+
+//#define SIZE 260//208//156//104//
+
+#define NB_COEFF CEIL_DIVIDE(SIZE,52)
+
+#define NB_COEFF64 CEIL_DIVIDE(SIZE,64)
+
+
+#undef force_inline
+#define force_inline __attribute__((always_inline))
+
+
+
+#include <stdlib.h>
+#include <stdio.h>
+
+#include <string.h>
+#include <stdint.h>
+#include <gmp.h>
+#include <openssl/bn.h>
+
+#include <immintrin.h>
+
+
+void displayVect(unsigned long int *A, char *var, int size);
+
+void displayVect512_NB_COEFF(__m512i *A512, char *var);
+
+void displayVect512(__m512i *A512, char *var);
+
+void displayVect512_NB_COEFFx2(__m512i *A512, char *var);
+
+
+
+
+
+void fexpand(unsigned long int *output, const unsigned long int *in);
+
+void fcontract (unsigned long int *output, const unsigned long int * input);
+
+
+
+void multMod(unsigned long int  * output, unsigned long int * in, unsigned long int * in2);
+
+void squaringMod(unsigned long int * output, unsigned long int * in);
+
+#include "arith_AVX512.h"
+
+
+#endif
+
